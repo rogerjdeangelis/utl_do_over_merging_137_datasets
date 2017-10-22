@@ -24,7 +24,7 @@ Data analytics. Data management SAS. Merging 137 datasets/tables in less than a 
     ```    ```
     ```       %utlopts; * turn options back on;  ```
     ```       data want;  ```
-    ```          merge d:;  * note ":" this is like a wildcard   ```
+    ```          merge d:;  * note ":" this is like a wildcard;   ```
     ```           by name;  ```
     ```       run;quit;  ```
     ```    ```
@@ -74,7 +74,7 @@ Data analytics. Data management SAS. Merging 137 datasets/tables in less than a 
     ```  D3                               N    8       3  ```
     ```  D4                               N    8       4  ```
     ```    ```
-    ```  D830                             N    8       130  ```
+    ```  D130                             N    8       130  ```
     ```  D131                             N    8       131  ```
     ```  D132                             N    8       132  ```
     ```  D133                             N    8       133  ```
